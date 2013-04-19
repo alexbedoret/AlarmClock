@@ -37,15 +37,3 @@ while(True):
       if matrix == 0:
           matrix_0.setBicolorPixel(column,row,0)
           matrix_0.setBicolorPixel(column,row,color)
-
-      elif matrix == 1: 
-          #matrix_1.setBicolorPixel(column,row,0)
-          #matrix_1.setBicolorPixel(column,row,color)
-
-      elif matrix == 2:
-          #matrix_2.setBicolorPixel(column,row,0)
-          #matrix_2.setBicolorPixel(column,row,color)
-
-      elif matrix == 3:
-          #matrix_3.setBicolorPixel(column,row,0)
-          #matrix_3.setBicolorPixel(column,row,color)
