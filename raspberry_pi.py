@@ -39,6 +39,8 @@ while(True):
   led     = value
 
   color = led
+
+  print "i:"+str(i)+" - matrix:"+str(matrix)+" - column:"+str(column)+" -  row:"+str(row)
       
   if matrix == 0:
     matrix_0.setBicolorPixel(column,row,0)
