@@ -2,12 +2,12 @@
 
 import time
 import datetime
-from Adafruit_8x8 import ColorEightByEight
+from Adafruit_8x8 import EightByEight
 
 # ===========================================================================
 # 8x8 Pixel Example
 # ===========================================================================
-matrix_0 = ColorEightByEight(address=0x70)
+matrix_0 = EightByEight(address=0x70)
 #matrix_1 = ColorEightByEight(address=0x72)
 #matrix_2 = ColorEightByEight(address=0x71)
 #matrix_3 = ColorEightByEight(address=0x74)
