@@ -19,27 +19,27 @@ print "Press CTRL+Z to exit"
 
 # Continually update the 8x8 display one pixel at a time
 while(True):  
-      if i == size:
-        i = 0
+  if i == size:
+    i = 0
 
-      value = data[i]
-      i+=1
+  value = data[i]
+  i+=1
 
-      time.sleep(0.1)
+  time.sleep(0.1)
 
-      matrix  = value
-      value   = data[i]
-      i+=1
-      column  = value
-      value   = data[i]
-      i+=1
-      row     = value
-      value   = data[i]
-      i+=1
-      led     = value
+  matrix  = value
+  value   = data[i]
+  i+=1
+  column  = value
+  value   = data[i]
+  i+=1
+  row     = value
+  value   = data[i]
+  i+=1
+  led     = value
 
-      color = led
+  color = led
       
-      if matrix == 0:
-          matrix_0.setBicolorPixel(column,row,0)
-          matrix_0.setBicolorPixel(column,row,color)
+  if matrix == 0:
+    matrix_0.setBicolorPixel(column,row,0)
+    matrix_0.setBicolorPixel(column,row,color)
