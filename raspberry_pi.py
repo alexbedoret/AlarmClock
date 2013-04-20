@@ -18,6 +18,7 @@ print "Press CTRL+Z to exit"
 
 # Continually update the 8x8 display one pixel at a time
 while(True):  
+  time.sleep(0.01)
   if i == size:
     i = 0
 
