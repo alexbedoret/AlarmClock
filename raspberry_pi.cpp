@@ -14,8 +14,6 @@ int row;
 int led;
 int matrix;
 int ms;
-int color;
-int value;
 int size = sizeof(data) / sizeof(int);
 
 void setup() {
@@ -39,17 +37,10 @@ void loop() {
     i = 0;
   }
 
-  value = data[i]; i++;
-  matrix  = value; 
-
-  value = data[i]; i++;
-  column  = value; 
-
-  value = data[i]; i++;
-  row     = value; 
-
-  value = data[i]; i++;
-  led     = value;
+  matrix = data[i]; i++;
+  column = data[i]; i++;
+  row = data[i]; i++;
+  led = data[i]; i++;
       
   switch (matrix)
   {
