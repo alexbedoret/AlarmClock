@@ -2,5 +2,5 @@
 
 echo "Running AlarmClock..."
 
-cd ~/raspberry-pi-color-matrix-example/
+cd ~/raspberry-pi-bicolor-matrix-example/
 ./bicolor8x8
