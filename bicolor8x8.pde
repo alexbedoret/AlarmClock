@@ -38,11 +38,13 @@ void loop() {
     i = 0;
   }
 
+/*
   if ( data[i] == 30 )
   {
   	delay(data[i]);
   	i++;
   }
+*/
 
   matrix = data[i]; i++;
   column = data[i]; i++;
