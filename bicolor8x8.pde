@@ -38,15 +38,15 @@ void loop() {
     i = 0;
   }
 
-  if ( data[i] >= 30 )
-  {
-  	//delay(data[i]);
-  	i++;
-  }
-
   if ( data[i] == 20 )
   {
   	//delay(1000);
+  	i++;
+  }
+
+  if ( data[i] >= 30 )
+  {
+  	//delay(data[i]);
   	i++;
   }
 
