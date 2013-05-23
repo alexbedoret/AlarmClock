@@ -47,7 +47,7 @@ void loop() {
   if ( data[i] >= 30 )
   {
   	delay(data[i]);
-  	cout << "delay" << endl;
+  	std::cout << "delay" << std::endl;
   	i++;
   }
 
