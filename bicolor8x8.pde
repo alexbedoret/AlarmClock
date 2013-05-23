@@ -40,13 +40,13 @@ void loop() {
 
   if ( data[i] == 20 )
   {
-  	//delay(1000);
+  	delay(1000);
   	i++;
   }
 
   if ( data[i] >= 30 )
   {
-  	delay(data[i]);
+  	//delay(data[i]);
   	i++;
   }
 
@@ -64,17 +64,17 @@ void loop() {
       break;
     case 1: 
       matrix_1.drawPixel(column,row,0);
-      matrix_1.drawPixel(column,row,1);
+      matrix_1.drawPixel(column,row,led);
       matrix_1.writeDisplay();
       break;
     case 2:
       matrix_2.drawPixel(column,row,0);
-      matrix_2.drawPixel(column,row,2);
+      matrix_2.drawPixel(column,row,led);
       matrix_2.writeDisplay();
       break;
     case 3:
       matrix_3.drawPixel(column,row,0);
-      matrix_3.drawPixel(column,row,3);
+      matrix_3.drawPixel(column,row,led);
       matrix_3.writeDisplay();
       break;
     }
