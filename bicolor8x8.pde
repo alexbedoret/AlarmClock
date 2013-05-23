@@ -40,7 +40,7 @@ void loop() {
 
   if ( data[i] == 20 )
   {
-  	delay(300);
+  	//delay(300);
   	i++;
   }
 
