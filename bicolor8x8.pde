@@ -40,7 +40,7 @@ void loop() {
 
   if ( data[i] >= 30 )
   {
-  	delay(data[i]);
+  	//delay(data[i]);
   	i++;
   }
 
