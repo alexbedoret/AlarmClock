@@ -47,7 +47,7 @@ void loop() {
   if ( data[i] >= 30 )
   {
   	delay(data[i]);
-  	Serial.print("delay");
+  	cout << "delay" << endl;
   	i++;
   }
 
