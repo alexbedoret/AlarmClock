@@ -39,12 +39,14 @@ void loop() {
   while ( data[i] >= 30 )
   {
   	delay(data[i]);
-  	i++;
-  }
-
-  if (i == size-1)
-  {
-    i = 0;
+  	if ( i == size-1 )
+  	{
+  		i = 0;
+  	}
+  	else
+  	{
+  		i++;
+  	}
   }
 
   matrix = data[i]; i++;
