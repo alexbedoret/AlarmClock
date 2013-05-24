@@ -36,7 +36,7 @@ void setup() {
 
 void loop() {
 
-  if (i == size-1)
+  if (i == size-10)
   {
     i = 0;
   }
