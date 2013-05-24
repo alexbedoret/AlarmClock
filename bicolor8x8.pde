@@ -16,6 +16,7 @@ int led;
 int matrix;
 int ms;
 int size = sizeof(data) / sizeof(int);
+char text = (char)size;
 
 void setup() {
   Serial.begin(9600);
@@ -35,7 +36,7 @@ void setup() {
 
 void loop() {
 
-  Serial.println(size, DEC);
+  Serial.println(text);
 
   if (i == size)
   {
