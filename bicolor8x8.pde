@@ -35,10 +35,10 @@ void setup() {
 
 void loop() {
 
-  Serial.println(i);
-  Serial.println(size);
+  Serial.println((char)i);
+  Serial.println((char)size);
   Serial.println("--");
-  
+
   if (i == size)
   {
     i = 0;
