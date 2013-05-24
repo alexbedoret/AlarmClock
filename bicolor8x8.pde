@@ -41,36 +41,15 @@ void loop() {
     i = 0;
   }
 
-  if ( data[i] >= 30 )
+  while ( data[i] >= 30 )
   {
   	delay(data[i]);
   	i++;
   }
 
   matrix = data[i]; i++;
-
-  if ( data[i] >= 30 )
-  {
-  	delay(data[i]);
-  	i++;
-  }
-
   column = data[i]; i++;
-
-  if ( data[i] >= 30 )
-  {
-  	delay(data[i]);
-  	i++;
-  }
-
   row = data[i]; i++;
-
-  if ( data[i] >= 30 )
-  {
-  	delay(data[i]);
-  	i++;
-  }
-
   led = data[i]; i++;
       
   switch (matrix)
