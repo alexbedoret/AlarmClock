@@ -35,9 +35,7 @@ void setup() {
 
 void loop() {
 
-  Serial.println((char)i);
-  Serial.println((char)size);
-  Serial.println("--");
+  Serial.println(size, DEC);
 
   if (i == size)
   {
