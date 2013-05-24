@@ -36,9 +36,8 @@ void setup() {
 
 void loop() {
 
-  Serial.println(text);
-
-  if (i == size)
+Serial.println("test");
+  if (i == size-1)
   {
     i = 0;
   }
@@ -78,3 +77,4 @@ void loop() {
       break;
     }
 }
+
