@@ -29,10 +29,16 @@ void setup() {
   matrix_1.clear();
   matrix_2.clear();
   matrix_3.clear();
+
 }
 
 
 void loop() {
+
+  Serial.println(i);
+  Serial.println(size);
+  Serial.println("--");
+  
   if (i == size)
   {
     i = 0;
