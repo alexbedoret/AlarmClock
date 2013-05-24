@@ -36,15 +36,15 @@ void setup() {
 
 void loop() {
 
-  if (i == size-10)
-  {
-    i = 0;
-  }
-
   while ( data[i] >= 30 )
   {
   	delay(data[i]);
   	i++;
+  }
+
+  if (i == size-1)
+  {
+    i = 0;
   }
 
   matrix = data[i]; i++;
